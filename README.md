@@ -1,17 +1,23 @@
-## My Project
+# AWSWorkshop.io Workshop - Armory
 
-TODO: Fill this README out!
+This is the repository to generate the AWS/Armory Workshop from and execute with Hugo.
 
-Be sure to:
+## To Execute.
+Hugo is leveraged as the site generator. https://gohugo.io/about/what-is-hugo/
 
-* Change the title in this README
-* Edit your repository description on GitHub
+```
+#Clone Repo
+gh repo clone ravilach/aws-modernization-harness
 
-## Security
+#Install Hugo
+brew install hugo
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+#Execute Hugo on Root of Local Clone Repo
+hugo server
+```
 
-## License
+With the local Hugo server running, head to http://localhost:1313
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+Cheers!
 
+- AWS Modernization Team
