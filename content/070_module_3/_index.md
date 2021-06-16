@@ -1,17 +1,7 @@
 ---
-title: "Scaling"
-chapter: true
+title: "Scaleup and Rollback"
 draft: false
-weight: 6
+weight: 7
 ---
 
-# Introduction
-
-Why is cluster scaling important
-
-
-
-
-
-
-
+In this section we will be scaling up and scaling down a replicaset. 
