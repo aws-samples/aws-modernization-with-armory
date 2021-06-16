@@ -79,7 +79,7 @@ Then, trigger the pipeline:
 
 Notice that we used the exact same manifest; we just selected a different override namespace. This works because the manifest doesn't have hardcoded namespaces.
 
-Right now, we only have one Kubernetes "Account", called "spinnaker", which refers to the Kubernetes cluster that Spinnaker is running on.
+Right now, we only have one Kubernetes "Account", called "spinnaker", which refers to the Kubernetes cluster that Armory Enterprise is running on.
 
 If we have added additional Kubernetes clusters to Armory, we could also (alternately or in addition) configure Armory to deploy to a different Kubernetes cluster by selecting a different option in the "Account" dropdown.
 
