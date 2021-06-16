@@ -13,7 +13,7 @@ The CloudFormation template provides an opportunity to provide values that will 
 - SSH key name
 - Allowed external access CIDR
 - Number of Availability zones (Needs to match the number of zones listed above)
-- EKS Public Access Point
+- EKS Public Access Point - Enabled
 - Instance type (Should be a t3.xlarge or greater)
 
 After entering the desired values, press "Next"
