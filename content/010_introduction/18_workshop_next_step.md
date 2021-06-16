@@ -4,13 +4,13 @@ chapter: true
 weight: 18
 ---
 
-## Workshop Overview
 
-Describe what the audience will do, i.e. execute Armory QuickStart, deployment styles etc.
+# Next Steps
 
-### Armory QuickStart
+1. Log into the AWS console
+1. Set up Armory by using CloudFormation
+1. Module 1 - Create Your First Pipeline
+1. Module 2 - Blue-Green Deployments
+1. Module 3 - Scaleup and Rollback
 
-Describe what the QuickStart is used for and why use this QuickStart? Are there any documentations that can be linked here?
-
-
-{{% children showhidden="false" %}}
+Proceed to Setting up Armory
