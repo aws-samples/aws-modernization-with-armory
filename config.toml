@@ -15,7 +15,7 @@ enableEmoji = true
   # See the config.toml file from this documentation site to have an example.
   #editURL = ""
   # Author of the site, will be used in meta information
-  author = "Eugene Mu, Thomas McGonagle, Peter Blinstrubas"
+  author = "Eugene Mu, Thomas McGonagle, Peter Blinstrubas, Marina Novikova"
   # Description of the site, will be used in meta information
   description = "AWS Modernization Workshop with Armory"
   # Shows a checkmark for visited pages on the menu
