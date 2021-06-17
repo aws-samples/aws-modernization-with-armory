@@ -8,14 +8,14 @@ weight: 14
 
 Out of the box, Armory provides automation for deploying your software at scale. In addition, Armory integrates with the most common DevOps tools and provides you with the tools you need to manage:
 
-- Production permissions and entitlements
-- Policy enforcement
+- Production Permissions and Entitlements
+- Policy Enforcement
 - Production Architectural Best Practice Enforcement
 - Blue/Green Deployments
 - Canary Deployments
 - Native Kubernetes Deployments
 
-Armory's value beyond its proven strength, reliability, and openness -- it has open source Spinnaker at its core -- includes:  
+Armory has open source Spinnaker at its core and provides value to multiple personas within your org:  
 
 - For platform/ops: consistent & compliant deployments that support multi-target & multi-cloud
 - For developers: platform to rapidly and confidently ship features to target infrastructure using industry best practices
