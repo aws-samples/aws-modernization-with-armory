@@ -6,8 +6,9 @@ weight: 1
 
 # AWS Modernization Workshop with Armory Enterprise
 
-![Armory Logo](../images/armory-horizontal-logo.png "Armory Logo")
-
-### Welcome
-
 Welcome to the AWS Modernization Workshop with Armory Enterprise!  
+{{% children %}}
+[![Armory Logo](../images/armory-horizontal-logo.png "Armory Logo")](https://www.armory.io/)
+
+
+

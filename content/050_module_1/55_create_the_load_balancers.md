@@ -1,5 +1,5 @@
 ---
-title: "3. Create the Load Balancers"
+title: "2. Create the Load Balancers"
 chapter: true
 weight: 12
 ---

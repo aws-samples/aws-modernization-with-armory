@@ -1,5 +1,5 @@
 ---
-title: "4. Create a New Pipeline"
+title: "3. Create a New Pipeline"
 chapter: true
 weight: 12
 ---

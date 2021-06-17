@@ -1,5 +1,5 @@
 ---
-title: "6. Configure workshop specific requirements"
+title: "5. Add Manual Judgment for last stage"
 chapter: true
 weight: 18
 ---
@@ -11,39 +11,36 @@ Now that we have a running pipelines, let's add a promotion to a higher environm
 Go back to the Armory pipelines page:
 
 1. Log into the Armory Enterprise UI
-2. Go to the "Applications" tab
-3. Click on our "hello-today" application
-4. Go to the "Pipelines" tab.
+   
+1. Go to the "Applications" tab
+   
+1. Click on our "hello-today" application
+   
+1. Go to the "Pipelines" tab
 
-Edit your pipeline:
+
+### Edit your pipeline
 
 1. Click on the "Configure" button next to your pipeline (or click on "Configure" in the top right, and select your pipeline)
-2. Click on the "Configuration" icon on the left side of the pipeline
-3. Add the "Manual Judgment: Deploy to Stage"
-
-- Click "Add stage". Note how the stage is set to run at the beginning of the pipeline.
-- Select "Manual Judgment" from the "Type" dropdown
-- In the "Stage Name", enter "Manual Judgment: Deploy to Test"
-- In the "Instructions" field, enter "Please verify Dev and click 'Continue' to continue deploying to Test"
-- Click in the "Depends On" field at the top, and select your "Deploy Dev" stage. Notice how this rearranges the stages so that the manual judgment stage depends on (starts after) the dev deployment stage.
-- Click "Save Changes" in the bottom right.
-
-4. Add the Deploy Test stage
-
-- In the pipeline layout section at the top of the page, click on "Manual Judgment: Deploy to Test" (you're probably already here)
-
-- Click "Add stage". Notice how the stage is dependent on the stage you had selected when you added the stage (the manual judgment stage).
-
-- In the "Type" dropdown, select "Deploy (Manifest)"
-
-- Update the "Stage Name" field to be "Deploy Test"
-
-- In the "Account" dropdown, select "spinnaker"
-
-- Select the 'Override Namespace' checkbox, and select 'test' in the dropdown
-
-- In the "Manifest" field, put this (note the ${parameters["tag"]} field, which will pull in the tag parameter)
-
+   
+1. Click on the "Configuration" icon on the left side of the pipeline
+   
+1. Add the "Manual Judgment: Deploy to Stage"
+    - Click "Add stage". Note how the stage is set to run at the beginning of the pipeline
+    - Select "Manual Judgment" from the "Type" dropdown
+    - In the "Stage Name", enter "Manual Judgment: Deploy to Test"
+    - In the "Instructions" field, enter "Please verify Dev and click 'Continue' to continue deploying to Test"
+    - Click in the "Depends On" field at the top, and select your "Deploy Dev" stage. Notice how this rearranges the stages so that the manual judgment stage depends on (starts after) the dev deployment stage
+    - Click "Save Changes" in the bottom right
+    
+1. Add the Deploy Test stage
+   - In the pipeline layout section at the top of the page, click on "Manual Judgment: Deploy to Test" (you're probably already here)
+   - Click "Add stage". Notice how the stage is dependent on the stage you had selected when you added the stage (the manual judgment stage).
+   - In the "Type" dropdown, select "Deploy (Manifest)"
+   - Update the "Stage Name" field to be "Deploy Test"
+   - In the "Account" dropdown, select "spinnaker"
+   - Select the 'Override Namespace' checkbox, and select 'test' in the dropdown
+   - In the "Manifest" field, put this (note the ${parameters["tag"]} field, which will pull in the tag parameter)
 <pre>
   <code>    
 apiVersion: apps/v1
@@ -62,19 +59,21 @@ spec:
         lb: hello-today
     spec:
       containers:
-        - image: 'justinrlee/nginx:${parameters["tag"]}'
+        \- image: 'justinrlee/nginx:${parameters["tag"]}'
           name: primary
           ports:
             - containerPort: 80
   </code>
 </pre>
 
-5. Click "Save Changes"
+1. Click "Save Changes"
 
-Then, trigger the pipeline:
+### Trigger the pipeline
 
 1. Click back on the "Pipelines" tab at the top of the page
+   
 2. Click on "Start Manual Execution" next to your newly created pipeline (you can also click "Start Manual Execution" in the top right, and then select your pipeline in the dropdown)
+   
 3. Click "Run"
 
 Notice that we used the exact same manifest; we just selected a different override namespace. This works because the manifest doesn't have hardcoded namespaces.
