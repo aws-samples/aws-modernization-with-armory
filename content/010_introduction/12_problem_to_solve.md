@@ -3,8 +3,8 @@ title: "Reliable Deployments"
 chapter: true
 weight: 12
 ---
-# So what is Continuous Delivery, Really? 
-
+# Continuous Delivery 
+## So what is Continuous Delivery, Really?
 You don't want to be stuck in traffic. You want life to be simple, reliable, and in the case of deploying your applications, even, perhaps, dare I say, a little boring.
 
 Let's take a little step back and think about how far things have come. We have gone from huge computers to ones not even visible by the eye. From huge server farms to virtual processing power and space up in the clouds. It follows that as things change and evolve, how you work with them needs to follow.

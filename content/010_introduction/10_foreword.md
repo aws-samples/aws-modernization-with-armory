@@ -4,8 +4,8 @@ chapter: true
 weight: 10
 ---
 
-# Why are organizations still striving to achieve continuous delivery?
-
+# State of the industry
+## Why are organizations still striving to achieve continuous delivery?
 
 Today’s world revolves around software and services working reliably and continuously – the internet is accessible 24 hours a day, and users expect 100% uptime. In fact, they are requiring it. In a recent PWC study measuring customer experience, they found that "one in three consumers say they will walk away from a brand they love after just one bad experience. This figure is even higher in Latin America, at 49%." With new start-ups disrupting even the most traditional of markets, this will only continue to grow.
 

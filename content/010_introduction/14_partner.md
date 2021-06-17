@@ -4,7 +4,8 @@ chapter: true
 weight: 14
 ---
 
-# Enter Armory: Enabling Secure, Reliable, and Safe Deployments at Scale
+# Enter Armory 
+## Enabling Secure, Reliable, and Safe Deployments at Scale
 
 Out of the box, Armory provides automation for deploying your software at scale. In addition, Armory integrates with the most common DevOps tools and provides you with the tools you need to manage:
 
