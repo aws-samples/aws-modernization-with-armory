@@ -8,7 +8,6 @@ weight: 1
 Today we are going to learn the following topics:
 
 - How to deploy a sample EKS application to your AWS environment using Armory Enterprise
-- How DevOps patterns help to release features and functionality faster
 - How to use Armory Enterprise to deploy your application using a Blue-Green deployment strategy
 - How you can use Armory Enterprise to dynamically scale up your application and rollback changes
 
