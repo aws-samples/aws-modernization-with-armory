@@ -11,8 +11,11 @@ We're going to start off with a simple "Deploy Application" pipeline, that will 
 ### Create the pipeline
 
 1. Switch to "Pipelines" tab on the left-hand bar
+   
 1. Choose "Configure a new pipeline" if it is your first pipeline (otherwise you should see "+ Create" button)
+   
 1. Give the pipeline the name `Deploy Application`
+   
 1. Add a 'tag' parameter:
       - Click "Add Parameter" (in the middle of the page)
       - Specify `tag` as the Name
@@ -20,6 +23,7 @@ We're going to start off with a simple "Deploy Application" pipeline, that will 
       - Check the "Pin Parameter" checkbox
       - Add a Default Value of `monday` (all lowercase)
         ![Add Pipeline parameter](/images/armory-create-pipeline-parameter.png)
+        
 1. Add the Deploy Dev stage
       - Click "Add Stage" at the top section of the configuration
       - In the "Type" dropdown, select `Deploy (Manifest)`
