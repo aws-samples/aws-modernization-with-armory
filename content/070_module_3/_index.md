@@ -4,7 +4,7 @@ draft: false
 weight: 7
 ---
 
-In this section we will be scaling up and scaling down a ReplicaSet.\
+In this section we will be scaling up and scaling down a ReplicaSet.
 
 A ReplicaSet is defined with fields, including a selector that specifies how to identify Pods it can acquire, a number of replicas indicating how many Pods it should be maintaining, and a pod template specifying the data of new Pods it should create to meet the number of replicas criteria. A ReplicaSet then fulfills its purpose by creating and deleting Pods as needed to reach the desired number. When a ReplicaSet needs to create new Pods, it uses its Pod template.
 
