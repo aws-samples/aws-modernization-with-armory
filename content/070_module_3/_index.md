@@ -21,4 +21,4 @@ Using Armory Enterprise, you simply need to click on a field to scale up and dow
 
 
 
-![Scale Up](/images/infinity.png)
+![Scale Up](/images/rollback.png)
