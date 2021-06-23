@@ -4,8 +4,9 @@ draft: false
 weight: 7
 ---
 
-A key capability and benefit of a modern distributed system is the ability to right size and immediatley adjust your infrastructure to meet the demands of your business.  Another critical benefit is the ability to rollback changes to an application in production when trouble is detected.  The combination of Kubernetes and Armory Enterprise allow you to do this quickly and at scale.
+In this section we will be scaling up and scaling down a ReplicaSet.
 
+A key capability and benefit of a modern distributed system is the ability to right size and immediately adjust your infrastructure to meet the demands of your business.  Another critical benefit is the ability to rollback changes to an application in production when trouble is detected.  The combination of Kubernetes and Armory Enterprise allow you to do this quickly and at scale.
 
 In this exercise, you will be introduced to scaling up and scaling down an application, as well as, how to roll back an application to a previous version.  In Kubernetes, we look at a Pod as the artifact containing the application and is the abstraction that is monitored and managed to keep your application available and scaled. Another abstraction in Kubernetes that works to keep your Pods available is called a Replicaset. A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. 
 
