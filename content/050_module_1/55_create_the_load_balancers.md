@@ -11,9 +11,14 @@ Now that our Armory Application and Kubernetes Namespaces are created, we're goi
 For each of our environments, we're going to set up two Kubernetes resources:
 
 - A "Service" of type "ClusterIP", which acts as an internal load balancer to access our applications
-- An "Ingress", which will configure Traefik to point specific paths on the Minnaker VM to our internal Services
+- An "Ingress", which acts as an external entry will route the requests to the appropriate backend services
+
+To learn more about Ingress, and why its important, check out the Kubernetes [documentation](https://kubernetes.io/docs/concepts/services-networking/ingress/). 
 
 Armory abstracts both Kubernetes Service and Kubernetes Ingress objects as Armory "Load Balancer" objects, so we'll be creating six total Armory "Load Balancers" (one Ingress and one Service for each of our three Namespaces).
+
+
+![Ingress](/images/ingress.png)
 
 
 ### Create the "dev" Service and Ingress

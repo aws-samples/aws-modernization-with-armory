@@ -5,11 +5,11 @@ draft: false
 weight: 41
 ---
 # Scale up and Rollback
-<!--Add some context here-->
+The ability to roll your application forward and back, to be able to provision new pods or roll back to a previous state is an important one. Modern applications are living breathing entities; as deployment occurs issues may arise during the initial phase of the release and require fixing. This functionality of rolling back to a good known state is important and critical for any modern software delivery system. Kubernetes provides the ability to scale up known good applications, as well as roll them back to previous versions. This functionality is exposed in Armory Enterprise and is walked through in this next module. 
 
 ### Create pipeline "Deploy Apple"
 
-Before we scale up and rollback, we need to deploy the application we will use by creating a pipeline. The simple application that we will deploy displays the fruit name "Apple". We will be deploying a new version of the application that displays the fruit name "Banana". Inorder provide external access to the applications, the deployment will include an Ingress. You will find the ingress endpoint in the Armory Enterprise UI which you will enter in the address field of your browser. In this section you will also update the application by making a siple modification to the yaml. 
+Before we scale up and rollback, we need to deploy the application we will use by creating a pipeline. The simple application that we will deploy displays the fruit name "Apple". We will be deploying a new version of the application that displays the fruit name "Banana". In order to provide external access to the applications, the deployment will include an Ingress. You will find the ingress endpoint in the Armory Enterprise UI which you will enter in the address field of your browser. In this section you will also update the application by making a siple modification to the yaml. 
 
 1. Navigate to "Pipelines" and in the top right, click the '+ Create' icon (or "+", depending on the size of your browser)
 1. Give the pipeline the name `Deploy Apple`
