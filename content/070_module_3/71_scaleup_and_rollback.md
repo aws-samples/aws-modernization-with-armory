@@ -5,7 +5,7 @@ draft: false
 weight: 41
 ---
 # Scale up and Rollback
-The ability to roll your application forward and back, to be able to provision new pods or roll back to a previous state is an important one. Modern applications are living breathing things and as software is developed and rolled out issues may arise during the initial phase of the release and require fixing. This functionality of rolling back to a good known state is important and critical for any modern software delivery system. Kubernetes provides the ability to scale up known good applications, as well as roll them back to previous versions. This functionality is exposed in Armory Enterprise and is walked through in this next module. 
+The ability to roll your application forward and back, to be able to provision new pods or roll back to a previous state is an important one. Modern applications are living breathing entities; as deployment occurs issues may arise during the initial phase of the release and require fixing. This functionality of rolling back to a good known state is important and critical for any modern software delivery system. Kubernetes provides the ability to scale up known good applications, as well as roll them back to previous versions. This functionality is exposed in Armory Enterprise and is walked through in this next module. 
 
 ### Create pipeline "Deploy Apple"
 
