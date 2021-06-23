@@ -6,6 +6,8 @@ weight: 12
 
 # Run the Pipeline with a Different Parameter
 
+In the "Creating a New Pipeline" section, step 5, you copied yaml that had a tag parameter entry. The tag paramter is implemented as a pipeline expression. Pipeline expressions allow you to dynamically set and access variables during pipeline execution. You can use an expression in almost any text field in a Armory Enterprise pipeline stage. Pipeline expressions help you use arbitrary values about the state of your system in the execution of your pipelines. You can use them to turn on or off particular stages or branches of your pipeline, dynamically name your stack, check the status of another stage, and perform other operations, or pass a value to your application .
+
 1. Click back on the "Pipelines" tab at the top of the page
 1. Click on "Start Manual Execution" next to your newly created pipeline (you can also click "Start Manual  
 Execution" in the top right, and then select your pipeline in the dropdown)

@@ -32,4 +32,4 @@ For this workshop, accept the default values and press "Next"
 
 Note: It will take about 50 minutes to create all the stacks.
 
-Once completed you can navigate to the main stack "Armory-Spinnaker-on-EKS-New-VPC", got to "Outputs" and find "SpinnakerUI". This is the link to Armory Enterprise UI you will work with through the workshop.
+Once completed you can navigate to the main stack "Armory-Spinnaker-on-EKS-New-VPC", got to "Outputs" and find the endpoint to the Armory Enterprise UI. This is the link to Armory Enterprise UI you will work with through the workshop.

@@ -6,6 +6,9 @@ weight: 42
 ---
 
 ## Rollback
+
+In this section, you will walk through the steps for creating a pipeline that performs a rollback. The apple-app currently displays Banana. The rollback will revert the application to the previous version and you will now see Apple when you access the application. Armory Enterprise automatically versions and keeps track of your deployments. In this example, you can see that there are two historic versions of the deployment which you can see in the infrastructure section of the UI. Also, you will see a field called "Revisions Back". This field indicates how many versions to rollback. In this exercise, we can only rollback a single version.
+
 1. Go to "Pipelines" screen and start creating a new pipeline
 1. Give the pipeline the name `Rollback Apple`
 2. Add stage and select the type "Undo Rollout (Manifest)"
