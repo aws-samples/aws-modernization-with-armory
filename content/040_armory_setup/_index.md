@@ -17,5 +17,5 @@ This section will guide you through the steps for using AWS Cloudformation to es
 
 1. Confirm the AWS Region you are working is your intended region
    
-1. Click "Next" to proceed
+1. Click **Next** to proceed
 

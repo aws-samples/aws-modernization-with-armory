@@ -67,9 +67,9 @@ spec:
 
 Your application should be deployed. Look at the status of this in three ways:
 
-- Go to the left-hand infrastructure tab and choose "Clusters". You should see your application, which consists of a Deployment with a single ReplicaSet. Examine different parts of this page
+1. Go to the left-hand infrastructure tab and choose "Clusters". You should see your application, which consists of a Deployment with a single ReplicaSet. Examine different parts of this page
   ![Create Pipeline](/images/armory-clusters.png)
-- Go to the "Load Balancers". Examine different parts of this page (for example, try checking the 'Instance' checkbox so you can see ReplicaSets and Pods attached to your Service)
+1. Go to the "Load Balancers". Examine different parts of this page (for example, try checking the 'Instance' checkbox, so you can see ReplicaSets and Pods attached to your Service)
   ![Create Pipeline](/images/armory-load-balancers-with-resources.png)
-- Navigate to "Load Balancers", select DEV namespace in "ingress hello-today" and on the right-hand information tab you can identify Ingress URL. Replace it in https://\<your-ingresss-url\>/dev/hello-today, and you should see your app returning last deployed tag value
+1. Navigate to "Load Balancers", select DEV namespace in "ingress hello-today" and on the right-hand information tab you can identify Ingress URL. Replace it in https://\<your-ingresss-url\>/dev/hello-today, and you should see your app returning last deployed tag value
   ![Ingress Address](/images/armory-ingress-info.png)
