@@ -6,7 +6,11 @@ weight: 10
 ---
 # Add manual judgment and wait stage and blue/green prod deployment
 
-Next, we're going to show a blue/green deployment, which is handled by Spinnaker's traffic management capabilities.  We're going to gate this with both a manual judgment and a wait stage.
+Next, we're going to show a blue/green deployment, which is handled by Armory's traffic management capabilities.  We're going to gate the deployment with both a manual judgment and a wait stage. First let's touch on what is a Blue Green Deployment. 
+
+A blue/green deployment is a deployment strategy in which you create two separate, but identical environments. The environments could be separate clusters of EC2 Instances, separate Kubernetes clusters, or deployments in Kubernetes running in different namespaces. The concept is one environment (blue) is running the current application version and one environment (green) is running the new application version. Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails. Once testing has been completed on the green environment, live application traffic is directed to the green environment and the blue environment is deprecated.
+
+For more information, you can read the Armory blog article [Leverage Advanced Deployment Strategies to Change How You Ship Software](https://www.armory.io/blog/advanced-deployment-strategies-with-armory-spinnaker/). The blog post not only the options for doing Blue Green deployments, it describes Canary deployments and deployment strategies for features.
 
 ## Edit your pipeline:
 
