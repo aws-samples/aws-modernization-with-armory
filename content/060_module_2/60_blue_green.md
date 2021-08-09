@@ -1,5 +1,5 @@
 ---
-title: "Blue Green Deployment"
+title: "1. Blue Green Deployment"
 chapter: true
 weight: 10
 

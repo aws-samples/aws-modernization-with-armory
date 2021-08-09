@@ -1,5 +1,5 @@
 ---
-title: "Create Your First Pipeline"
+title: "Module 1: First Pipeline"
 chapter: true
 weight: 5
 ---

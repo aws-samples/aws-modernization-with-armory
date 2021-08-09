@@ -1,8 +1,9 @@
 ---
-title: "Scale up and Rollback"
-draft: false
+title: "Module 3: Deployment Resilience"
+chapter: true
 weight: 7
 ---
+
 
 In this section we will be scaling up and scaling down a ReplicaSet.
 

@@ -2,7 +2,7 @@
 title: "Run Armory Quickstart"
 chapter: true
 draft: false
-weight: 1
+weight: 14
 ---
 
 ## Parameters

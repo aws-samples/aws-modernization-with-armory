@@ -1,5 +1,5 @@
 ---
-title: "Blue Green Deployment"
+title: "Module 2: Deployment Strategies"
 chapter: true
 draft: false
 weight: 6

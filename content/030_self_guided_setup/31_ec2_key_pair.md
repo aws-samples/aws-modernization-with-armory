@@ -1,5 +1,5 @@
 ---
-title: "EC2 Key Pair"
+title: "Creating an EC2 Key Pair"
 chapter: true
 weight: 11
 ---

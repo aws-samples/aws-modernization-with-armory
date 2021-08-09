@@ -11,7 +11,5 @@ Welcome to the Self Guided Setup section! This workshop requires an AWS account 
 
 Here is a preview of what we will be setting up:
 
-1. Creating an AWS account with proper permissions
-1. Requesting AWS credit from AWS Marketplace
-1. Creating an EC2 Key Pair
+{{% children %}}
 

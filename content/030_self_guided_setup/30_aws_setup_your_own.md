@@ -1,5 +1,5 @@
 ---
-title: "AWS Account Setup"
+title: "Setting up your AWS account"
 chapter: true
 weight: 10
 ---
