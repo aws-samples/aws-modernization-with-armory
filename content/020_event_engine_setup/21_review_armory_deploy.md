@@ -21,4 +21,4 @@ Next steps:
    `kubectl get service/spin-deck -n spinnaker`
    
 Your URL should look similar to:
-https://a3a20f8a6418d4daa8146df2902b90ec-1185297719.us-east-2.elb.amazonaws.com:9000
+http://a3a20f8a6418d4daa8146df2902b90ec-1185297719.us-east-2.elb.amazonaws.com:9000
