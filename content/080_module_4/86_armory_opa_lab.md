@@ -3,6 +3,17 @@ title: "7. Armory OPA Lab"
 chapter: true
 weight: 10
 ---
+In this lab we will install Armory Enterprise with OPA. 
+We will configure OPA to prevent the creation of pipelines without at least 
+one manual judgment step. 
+
+If a pipeline doesn't have at least one manual judgment step, the pipeline will 
+not be able to be saved. 
+
+This manual judgment OPA logic is a basic "hello world" style example. After creating
+this configuration we will go through examples of more complex OPA logic and will choose interesting
+ones to try out together. 
+
 
 ## 1. Delete Spinnaker
     kubectl delete ns spinnaker
