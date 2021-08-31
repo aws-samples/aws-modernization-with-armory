@@ -37,14 +37,15 @@ ones to try out together.
         files:
           - armory/policies/manual-judgement.rego
 
-#### 7. Edit the spin-policies config map
-	remove the 1 := 0, it is a rego null value
-
-#### 8. Run kustomize
+#### 7. Run kustomize
     ~/kubectl apply -k /home/ec2-user/spinnaker-kustomize-patches
 
-#### 9. Watch for Pods to Come Up
+#### 8. Watch for Pods to Come Up
     watch kubectl get pods -n spinnaker
+
+#### 9. Edit the spin-policies config map
+	kubectl edit configmap spin-policies-dc79h66kbm -n spinnaker
+	remove the 1 := 0, it is a rego null value
 
 #### 10. Get Spin Deck URL
     kubectl get svc spin-deck -n spinnaker 
