@@ -1,6 +1,6 @@
 ---
 title: "Run Armory Quickstart"
-chapter: true
+chapter: false
 draft: false
 weight: 14
 ---

@@ -1,10 +1,9 @@
 ---
 title: "Creating an EC2 Key Pair"
-chapter: true
+chapter: false
 weight: 11
 ---
 
-## Generating SSH Key Pair for EC2
 An EC2 Key Pair allows users to securely access into an EC2 instance. For more information, visit the [EC2 Key Pair documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html). Follow the below steps on how to create your own!
    
 1. Navigate to your [EC2 Home](https://us-east-1.console.aws.amazon.com/ec2/v2/home?region=us-east-1#Home:)

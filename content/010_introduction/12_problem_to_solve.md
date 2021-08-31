@@ -1,7 +1,7 @@
 ---
 title: "Reliable Deployments"
 chapter: true
-weight: 12
+weight: 20
 ---
 # Continuous Delivery 
 ## So what is Continuous Delivery, Really?
